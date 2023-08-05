@@ -1,0 +1,46 @@
+body {
+    background-color: rgb(160, 225, 241);
+}
+
+.qrcode {
+    width: 90%;
+    left:12px;
+    top:15px;
+    position: relative;
+    border: 2px solid #ffffff;
+    border-radius: 8px;
+}
+
+.div-qrcode {
+    position: relative;
+    width:15%;
+    height:30%;
+    border: 1px solid #ffffff;
+    border-radius: 20px;
+    background-color: #ffffff;
+    left:42%;
+    top: 120px;
+}
+
+p {
+    margin: 30px 20px;
+    text-align: center;
+    font-family: 'Fredoka One', cursive;
+    font-size: 15px;
+}
+
+p:last-child {
+    opacity: 0.5;
+    font-size: 15px;
+}
+
+@media screen and (max-width: 480px){
+    .div-qrcode {
+        width:50%;
+        left:25%;
+    }
+    .qrcode {
+        width: 80%;
+        left:18px;
+    }
+}
